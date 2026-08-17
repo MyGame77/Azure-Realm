@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mygame77.github.io/Eternal-Seas-login/sitemap.xml
