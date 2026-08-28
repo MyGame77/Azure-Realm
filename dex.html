@@ -146,14 +146,14 @@ document.getElementById("verify").addEventListener("click", () => {
   const correct = selected.every(x => x.selected === x.correct);
 
   if(correct){
-    result.textContent = "✓ Verification successful! You are human.";
+    result.textContent = "✅ Verification successful! You are human.";
 
     // Open dex.html after successful verification.
     setTimeout(() => {
       window.location.href = "https://mygame77.github.io/EternalSeas/";
-    }, 800);
+    }, 1200);
   }else{
-    result.textContent = "✗ Not quite. Try again!";
+    result.textContent = "❌ Not quite. Try again!";
     result.className = "error";
   }
 });
